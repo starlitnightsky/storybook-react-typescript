@@ -5,7 +5,7 @@ storiesOf('Stuff', module).add(
   'Hello',
   () => {
     return (
-          <h1>Hello</h1>
+            <h1>Hello</h1>
     )
   }
 )
