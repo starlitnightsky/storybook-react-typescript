@@ -23,7 +23,7 @@
     "emitDecoratorMetadata": true,
     "downlevelIteration": true,
     "esModuleInterop": true,
-    "types": ["node", "automerge", "codemirror", "mocha"]
+    "types": ["node", "mocha"]
   },
   "include": ["src/**/*", "test/**/*"],
   "exclude": ["node_modules"]

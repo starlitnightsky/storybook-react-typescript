@@ -1,7 +1,7 @@
-import assert from 'assert'
+import doit from '../src'
 
 describe('test', () => {
   it('works', () => {
-    assert(false, 'fixme')
+    doit()
   })
 })
