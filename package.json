@@ -1,7 +1,7 @@
 {
-  "name": "automerge-codemirror",
+  "name": "react-typescript-storybook",
   "version": "4.0.1",
-  "description": "Automerge plugin for CodeMirror",
+  "description": "Starter project for React, TypeScript and StoryBook",
   "main": "dist/src/index.js",
   "types": "dist/src/index.d.ts",
   "repository": "https://github.com/aslakhellesoy/react-typescript-storybook",
