@@ -9,3 +9,6 @@ Starter-project for React components/apps using TypeScript and Storybook.
 
     # Run tests with code coverage
     yarn nyc
+
+    # Bring up Storybook
+    yarn storybook
