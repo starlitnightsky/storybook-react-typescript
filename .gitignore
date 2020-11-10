@@ -4,4 +4,5 @@ yarn.lock
 coverage/
 yarn-error.log
 .idea/
-dist
+dist/
+.next/

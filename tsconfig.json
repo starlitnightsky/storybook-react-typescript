@@ -6,7 +6,7 @@
     "lib": ["es2018", "dom"],
     "sourceMap": true,
     "allowJs": false,
-    "jsx": "react",
+    "jsx": "preserve",
     "moduleResolution": "node",
     "rootDirs": ["src", "stories"],
     "baseUrl": "src",
@@ -23,7 +23,12 @@
     "emitDecoratorMetadata": true,
     "downlevelIteration": true,
     "esModuleInterop": true,
-    "types": ["node", "mocha"]
+    "types": ["node", "mocha"],
+    "skipLibCheck": true,
+    "strict": false,
+    "noEmit": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true
   },
   "include": ["src/**/*", "test/**/*"],
   "exclude": ["node_modules"]

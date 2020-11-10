@@ -8,15 +8,19 @@
   "author": "Aslak Hellesøy",
   "license": "MIT",
   "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
     "nyc": "nyc --reporter=html --reporter=text mocha",
     "test": "mocha",
-    "build": "tsc",
+    "compile": "tsc",
     "storybook": "start-storybook -p 6006 --no-dll",
     "build-storybook": "build-storybook --no-dll"
   },
   "dependencies": {
     "@types/react": "^16.9.56",
     "@types/react-dom": "^16.9.9",
+    "next": "^10.0.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
   },
