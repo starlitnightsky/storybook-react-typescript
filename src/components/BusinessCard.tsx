@@ -13,7 +13,7 @@ interface Props {
 }
 
 const BusinessCard: React.FunctionComponent<Props> = ({ givenName, familyName }) => (
-  <div itemScope itemType="http://schema.org/Person">
+  <div className="pt-6 space-y-4 text-lg font-semibold" itemScope itemType="http://schema.org/Person">
     <span itemProp="givenName">{givenName}</span>
     <span itemProp="familyName">{familyName}</span>
   </div>
